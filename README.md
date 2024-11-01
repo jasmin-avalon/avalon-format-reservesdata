@@ -29,11 +29,11 @@ This project was created using `bun init` in bun v1.1.30. [Bun](https://bun.sh) 
   - UI_POOL_DATA_PROVIDER: The address of the UI pool data provider contract.
 
 ```typescript
-const RPC_URL = 'https://rpc.taiko.xyz'
+const RPC_URL = 'RPC_URL'
 
 const ADDRESSES_CONFIG = {
-	LENDING_POOL_ADDRESS_PROVIDER: '0x64Eaf7cDE96277ed9253b8268DFC85eB2EB0D147', // PoolAddressesProvider
-	UI_POOL_DATA_PROVIDER: '0xb961661F5Ca019e232661Bd26686288a6E21d928', // UiPoolDataProviderV3
+	LENDING_POOL_ADDRESS_PROVIDER: '0x', // PoolAddressesProvider
+	UI_POOL_DATA_PROVIDER: '0x', // UiPoolDataProviderV3
 }
 ```
 
