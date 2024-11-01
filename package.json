@@ -1,5 +1,5 @@
 {
-	"name": "aave-format-reservesdata",
+	"name": "avalon-format-reservesdata",
 	"module": "index.ts",
 	"type": "module",
 	"devDependencies": {
@@ -8,5 +8,10 @@
 	"peerDependencies": {
 		"typescript": "^5.0.0"
 	},
-	"dependencies": { "@aave/contract-helpers": "^1.30.5", "@aave/math-utils": "^1.30.5", "dayjs": "^1.11.13", "ethers": "5.0.5" }
+	"dependencies": {
+		"@aave/contract-helpers": "^1.30.5",
+		"@aave/math-utils": "^1.30.5",
+		"dayjs": "^1.11.13",
+		"ethers": "5.0.5"
+	}
 }
